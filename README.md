@@ -57,9 +57,6 @@ func main() {
 }
 ```
 
-
-## Logging
-
 ## Alternatives
 
 - [th/go-editor](https://github.com/tj/go-editor)
