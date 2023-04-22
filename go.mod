@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/mitchellh/go-wordwrap v1.0.0
 	github.com/moby/term v0.0.0-20221205130635-1aeaba878587
-	golang.org/x/exp v0.0.0-20230321023759-10a507213a29
+	golang.org/x/exp v0.0.0-20230420155640-133eef4313cb
 	golang.org/x/sys v0.6.0
 )
 
