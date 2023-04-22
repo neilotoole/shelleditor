@@ -24,7 +24,7 @@ import (
 	wordwrap "github.com/mitchellh/go-wordwrap"
 	"github.com/moby/term"
 
-	"k8s.io/client-go/tools/remotecommand"
+	"github.com/neilotoole/shelleditor/pkg/k8s.io/apimachinery/pkg/util/remotecommand"
 )
 
 type wordWrapWriter struct {

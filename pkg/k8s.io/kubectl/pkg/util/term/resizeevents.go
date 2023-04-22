@@ -23,9 +23,9 @@ import (
 	"os"
 	"os/signal"
 
+	"github.com/neilotoole/shelleditor/pkg/k8s.io/apimachinery/pkg/util/remotecommand"
+	"github.com/neilotoole/shelleditor/pkg/k8s.io/apimachinery/pkg/util/runtime"
 	"golang.org/x/sys/unix"
-	"k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/client-go/tools/remotecommand"
 )
 
 // monitorResizeEvents spawns a goroutine that waits for SIGWINCH signals (these indicate the

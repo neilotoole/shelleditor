@@ -19,8 +19,8 @@ package term
 import (
 	"time"
 
-	"k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/client-go/tools/remotecommand"
+	"github.com/neilotoole/shelleditor/pkg/k8s.io/apimachinery/pkg/util/remotecommand"
+	"github.com/neilotoole/shelleditor/pkg/k8s.io/apimachinery/pkg/util/runtime"
 )
 
 // monitorResizeEvents spawns a goroutine that periodically gets the terminal size and tries to send

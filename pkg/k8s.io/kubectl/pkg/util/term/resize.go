@@ -20,8 +20,8 @@ import (
 	"fmt"
 
 	"github.com/moby/term"
-	"k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/client-go/tools/remotecommand"
+	"github.com/neilotoole/shelleditor/pkg/k8s.io/apimachinery/pkg/util/remotecommand"
+	"github.com/neilotoole/shelleditor/pkg/k8s.io/apimachinery/pkg/util/runtime"
 )
 
 // GetSize returns the current size of the user's terminal. If it isn't a terminal,
