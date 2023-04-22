@@ -25,7 +25,10 @@ import (
 	"runtime"
 	"strings"
 
-	"k8s.io/kubectl/pkg/util/term"
+	"github.com/neilotoole/shelleditor/logging"
+	"golang.org/x/exp/slog"
+
+	"github.com/neilotoole/shelleditor/pkg/k8s.io/kubectl/pkg/util/term"
 )
 
 const (
@@ -162,4 +165,9 @@ func platformize(linux, windows string) string {
 		return windows
 	}
 	return linux
+}
+
+// SetLogger sets the logger to use. Generally you can ignore this.
+func SetLogger(logger *slog.Logger) {
+	logging.DefaultLogger = logger
 }
