@@ -23,7 +23,7 @@ import (
 
 	"github.com/moby/term"
 
-	"k8s.io/kubectl/pkg/util/interrupt"
+	"github.com/neilotoole/shelleditor/pkg/k8s.io/kubectl/pkg/util/interrupt"
 )
 
 // SafeFunc is a function to be invoked by TTY.
