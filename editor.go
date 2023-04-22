@@ -54,6 +54,9 @@ type Editor struct {
 // it is treated as a bare command to be loaded. Otherwise, the string will
 // be passed to the user's shell for execution.
 func NewDefaultEditor(envs []string) Editor {
+	if len(envs) == 0 {
+		envs = []string{"EDITOR"}
+	}
 	args, shell := defaultEnvEditor(envs)
 	return Editor{
 		Args:  args,
