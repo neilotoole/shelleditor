@@ -18,7 +18,7 @@ go get -u github.com/neilotoole/shelleditor
 
 ## Example program
 
-There's an example program in `cmd/shelleditor`.
+There's an example program in [`cmd/shelleditor`](https://github.com/neilotoole/shelleditor/blob/master/cmd/shelleditor/main.go).
 
 ```shell
 $ go install github.com/neilotoole/shelleditor/cmd/shelleditor
