@@ -10,11 +10,15 @@ and those that are imported are mostly copied to the `/pkg` dir.
 
 ## Usage
 
-Use the normal mechanism:
+Import via the normal mechanism.
 
 ```shell
 go get -u github.com/neilotoole/shelleditor
 ```
+
+Note that because `shellescape` supports the stdlib `slog` logger,
+so it requires Go 1.21 or greater.
+
 
 ## Example program
 
