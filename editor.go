@@ -19,6 +19,7 @@ package shelleditor
 import (
 	"fmt"
 	"io"
+	"log/slog"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -26,7 +27,6 @@ import (
 	"strings"
 
 	"github.com/neilotoole/shelleditor/logging"
-	"golang.org/x/exp/slog"
 
 	"github.com/neilotoole/shelleditor/pkg/k8s.io/kubectl/pkg/util/term"
 )

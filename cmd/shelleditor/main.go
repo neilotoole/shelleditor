@@ -2,9 +2,8 @@ package main
 
 import (
 	"fmt"
+	"log/slog"
 	"os"
-
-	"golang.org/x/exp/slog"
 
 	"github.com/neilotoole/shelleditor"
 )

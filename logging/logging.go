@@ -2,8 +2,7 @@ package logging
 
 import (
 	"context"
-
-	"golang.org/x/exp/slog"
+	"log/slog"
 )
 
 // DefaultLogger is the default logger to use. Set it to a non-nil
